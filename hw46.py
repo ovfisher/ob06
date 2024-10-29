@@ -34,7 +34,6 @@ class   Game:
 
 p1 = Hero('Hercules',100,20)
 p2 = Hero('Comp',400,20)
-p1.attack(p2)
 
 gm = Game(p1,p2)
 gm.ring()
